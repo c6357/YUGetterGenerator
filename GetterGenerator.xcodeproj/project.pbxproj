@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18922CA31EFA6F8A000FEC8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18922CA21EFA6F8A000FEC8E /* AppDelegate.m */; };
+		18922CA61EFA6F8A000FEC8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18922CA51EFA6F8A000FEC8E /* main.m */; };
+		18922CA91EFA6F8A000FEC8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18922CA81EFA6F8A000FEC8E /* ViewController.m */; };
+		18922CAB1EFA6F8A000FEC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18922CAA1EFA6F8A000FEC8E /* Assets.xcassets */; };
+		18922CAE1EFA6F8A000FEC8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18922CAC1EFA6F8A000FEC8E /* Main.storyboard */; };
+		18922CBC1EFA6F9B000FEC8E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18922CBB1EFA6F9B000FEC8E /* Cocoa.framework */; };
+		18922CC21EFA6F9B000FEC8E /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18922CC11EFA6F9B000FEC8E /* SourceEditorExtension.m */; };
+		18922CC51EFA6F9B000FEC8E /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 18922CC41EFA6F9B000FEC8E /* SourceEditorCommand.m */; };
+		18922CC91EFA6F9B000FEC8E /* YUGetterGenerator.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18922CB91EFA6F9B000FEC8E /* YUGetterGenerator.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18922CC71EFA6F9B000FEC8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18922C961EFA6F8A000FEC8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18922CB81EFA6F9B000FEC8E;
+			remoteInfo = YUGetterGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18922CCD1EFA6F9B000FEC8E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18922CC91EFA6F9B000FEC8E /* YUGetterGenerator.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18922C9E1EFA6F8A000FEC8E /* GetterGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetterGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18922CA11EFA6F8A000FEC8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18922CA21EFA6F8A000FEC8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18922CA51EFA6F8A000FEC8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18922CA71EFA6F8A000FEC8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18922CA81EFA6F8A000FEC8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18922CAA1EFA6F8A000FEC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18922CAD1EFA6F8A000FEC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18922CAF1EFA6F8A000FEC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18922CB91EFA6F9B000FEC8E /* YUGetterGenerator.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = YUGetterGenerator.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		18922CBB1EFA6F9B000FEC8E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		18922CBF1EFA6F9B000FEC8E /* YUGetterGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YUGetterGenerator.entitlements; sourceTree = "<group>"; };
+		18922CC01EFA6F9B000FEC8E /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		18922CC11EFA6F9B000FEC8E /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		18922CC31EFA6F9B000FEC8E /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		18922CC41EFA6F9B000FEC8E /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		18922CC61EFA6F9B000FEC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18922C9B1EFA6F8A000FEC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18922CB61EFA6F9B000FEC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18922CBC1EFA6F9B000FEC8E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18922C951EFA6F8A000FEC8E = {
+			isa = PBXGroup;
+			children = (
+				18922CA01EFA6F8A000FEC8E /* GetterGenerator */,
+				18922CBD1EFA6F9B000FEC8E /* YUGetterGenerator */,
+				18922CBA1EFA6F9B000FEC8E /* Frameworks */,
+				18922C9F1EFA6F8A000FEC8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18922C9F1EFA6F8A000FEC8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18922C9E1EFA6F8A000FEC8E /* GetterGenerator.app */,
+				18922CB91EFA6F9B000FEC8E /* YUGetterGenerator.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18922CA01EFA6F8A000FEC8E /* GetterGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				18922CA11EFA6F8A000FEC8E /* AppDelegate.h */,
+				18922CA21EFA6F8A000FEC8E /* AppDelegate.m */,
+				18922CA71EFA6F8A000FEC8E /* ViewController.h */,
+				18922CA81EFA6F8A000FEC8E /* ViewController.m */,
+				18922CAA1EFA6F8A000FEC8E /* Assets.xcassets */,
+				18922CAC1EFA6F8A000FEC8E /* Main.storyboard */,
+				18922CAF1EFA6F8A000FEC8E /* Info.plist */,
+				18922CA41EFA6F8A000FEC8E /* Supporting Files */,
+			);
+			path = GetterGenerator;
+			sourceTree = "<group>";
+		};
+		18922CA41EFA6F8A000FEC8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18922CA51EFA6F8A000FEC8E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18922CBA1EFA6F9B000FEC8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18922CBB1EFA6F9B000FEC8E /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18922CBD1EFA6F9B000FEC8E /* YUGetterGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				18922CC01EFA6F9B000FEC8E /* SourceEditorExtension.h */,
+				18922CC11EFA6F9B000FEC8E /* SourceEditorExtension.m */,
+				18922CC31EFA6F9B000FEC8E /* SourceEditorCommand.h */,
+				18922CC41EFA6F9B000FEC8E /* SourceEditorCommand.m */,
+				18922CC61EFA6F9B000FEC8E /* Info.plist */,
+				18922CBE1EFA6F9B000FEC8E /* Supporting Files */,
+			);
+			path = YUGetterGenerator;
+			sourceTree = "<group>";
+		};
+		18922CBE1EFA6F9B000FEC8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18922CBF1EFA6F9B000FEC8E /* YUGetterGenerator.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18922C9D1EFA6F8A000FEC8E /* GetterGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18922CB21EFA6F8A000FEC8E /* Build configuration list for PBXNativeTarget "GetterGenerator" */;
+			buildPhases = (
+				18922C9A1EFA6F8A000FEC8E /* Sources */,
+				18922C9B1EFA6F8A000FEC8E /* Frameworks */,
+				18922C9C1EFA6F8A000FEC8E /* Resources */,
+				18922CCD1EFA6F9B000FEC8E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18922CC81EFA6F9B000FEC8E /* PBXTargetDependency */,
+			);
+			name = GetterGenerator;
+			productName = GetterGenerator;
+			productReference = 18922C9E1EFA6F8A000FEC8E /* GetterGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18922CB81EFA6F9B000FEC8E /* YUGetterGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18922CCA1EFA6F9B000FEC8E /* Build configuration list for PBXNativeTarget "YUGetterGenerator" */;
+			buildPhases = (
+				18922CB51EFA6F9B000FEC8E /* Sources */,
+				18922CB61EFA6F9B000FEC8E /* Frameworks */,
+				18922CB71EFA6F9B000FEC8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YUGetterGenerator;
+			productName = YUGetterGenerator;
+			productReference = 18922CB91EFA6F9B000FEC8E /* YUGetterGenerator.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18922C961EFA6F8A000FEC8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = bruce;
+				TargetAttributes = {
+					18922C9D1EFA6F8A000FEC8E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JDX99F375A;
+						ProvisioningStyle = Automatic;
+					};
+					18922CB81EFA6F9B000FEC8E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JDX99F375A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18922C991EFA6F8A000FEC8E /* Build configuration list for PBXProject "GetterGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18922C951EFA6F8A000FEC8E;
+			productRefGroup = 18922C9F1EFA6F8A000FEC8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18922C9D1EFA6F8A000FEC8E /* GetterGenerator */,
+				18922CB81EFA6F9B000FEC8E /* YUGetterGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18922C9C1EFA6F8A000FEC8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18922CAB1EFA6F8A000FEC8E /* Assets.xcassets in Resources */,
+				18922CAE1EFA6F8A000FEC8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18922CB71EFA6F9B000FEC8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18922C9A1EFA6F8A000FEC8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18922CA91EFA6F8A000FEC8E /* ViewController.m in Sources */,
+				18922CA61EFA6F8A000FEC8E /* main.m in Sources */,
+				18922CA31EFA6F8A000FEC8E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18922CB51EFA6F9B000FEC8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18922CC21EFA6F9B000FEC8E /* SourceEditorExtension.m in Sources */,
+				18922CC51EFA6F9B000FEC8E /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18922CC81EFA6F9B000FEC8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18922CB81EFA6F9B000FEC8E /* YUGetterGenerator */;
+			targetProxy = 18922CC71EFA6F9B000FEC8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18922CAC1EFA6F8A000FEC8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18922CAD1EFA6F8A000FEC8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18922CB01EFA6F8A000FEC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18922CB11EFA6F8A000FEC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18922CB31EFA6F8A000FEC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDX99F375A;
+				INFOPLIST_FILE = GetterGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hme.GetterGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		18922CB41EFA6F8A000FEC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDX99F375A;
+				INFOPLIST_FILE = GetterGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hme.GetterGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		18922CCB1EFA6F9B000FEC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YUGetterGenerator/YUGetterGenerator.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDX99F375A;
+				INFOPLIST_FILE = YUGetterGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hme.GetterGenerator.YUGetterGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		18922CCC1EFA6F9B000FEC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YUGetterGenerator/YUGetterGenerator.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDX99F375A;
+				INFOPLIST_FILE = YUGetterGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hme.GetterGenerator.YUGetterGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18922C991EFA6F8A000FEC8E /* Build configuration list for PBXProject "GetterGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18922CB01EFA6F8A000FEC8E /* Debug */,
+				18922CB11EFA6F8A000FEC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18922CB21EFA6F8A000FEC8E /* Build configuration list for PBXNativeTarget "GetterGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18922CB31EFA6F8A000FEC8E /* Debug */,
+				18922CB41EFA6F8A000FEC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18922CCA1EFA6F9B000FEC8E /* Build configuration list for PBXNativeTarget "YUGetterGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18922CCB1EFA6F9B000FEC8E /* Debug */,
+				18922CCC1EFA6F9B000FEC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18922C961EFA6F8A000FEC8E /* Project object */;
+}
