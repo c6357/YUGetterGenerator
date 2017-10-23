@@ -128,9 +128,10 @@ static inline NSArray *UILabelGetter(NSString *propertyName) {
     
     NSString *className = @"UILabel";
     GetterBegin
-    
+
     AddLine(@"       _%@.font = [UIFont systemFontOfSize:<#(CGFloat)#>];",propertyName);
-    AddLine(@"       _%@.textColor = <#Color#>;",propertyName)
+    AddLine(@"       _%@.textColor = [UIColor <#color#>];",propertyName)
+    AddLine(@"       _%@.textAlignment = NSTextAlignmentLeft;",propertyName)
     AddBackgroundColorLine
     
     GetterEnd
@@ -139,14 +140,15 @@ static inline NSArray *UILabelGetter(NSString *propertyName) {
 static inline NSArray *UIButtonGetter(NSString *propertyName) {
     
     NSString *className = @"UIButton";
+    
     GetterBeginWithoutInit
     
     AddLine(@"       _%@ = [UIButton buttonWithType:UIButtonTypeCustom];",propertyName)
     AddLine(@"       _%@.titleLabel.font = [UIFont systemFontOfSize:<#(CGFloat)#>];",propertyName)
     AddLine(@"       [_%@ setTitle:<#Title#> forState:UIControlStateNormal];",propertyName)
-    AddLine(@"       [_%@ setTitleColor:<#Color#> forState:UIControlStateNormal];",propertyName);
-    
-    AddLine(@"       [_%@ addTarget:<#(nullable id)#> action:<#(nonnull SEL)#> forControlEvents:UIControlEventTouchUpInside];",propertyName);
+    AddLine(@"       [_%@ setTitleColor:[UIColor <#color#>] forState:UIControlStateNormal];",propertyName);
+    AddLine(@"       [_%@ setImage:[UIImage imageNamed:<#(nonnull NSString *)#>] forState:UIControlStateNormal];",propertyName);
+    AddLine(@"       [_%@ addTarget:self action:@selector(<#selector#>)  forControlEvents:UIControlEventTouchUpInside];",propertyName);
     
     GetterEnd
 }
@@ -157,7 +159,7 @@ static inline NSArray *UITextViewGetter(NSString *propertyName) {
     GetterBegin
     
     AddLine(@"       _%@.font = [UIFont systemFontOfSize:<#(CGFloat)#>];",propertyName);
-    AddLine(@"       _%@.textColor = <#Color#>;",propertyName)
+    AddLine(@"       _%@.textColor = [UIColor <#color#>];",propertyName)
     
     GetterEnd
 }

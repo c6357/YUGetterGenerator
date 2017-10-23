@@ -16,6 +16,12 @@
 		18922CC21EFA6F9B000FEC8E /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18922CC11EFA6F9B000FEC8E /* SourceEditorExtension.m */; };
 		18922CC51EFA6F9B000FEC8E /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 18922CC41EFA6F9B000FEC8E /* SourceEditorCommand.m */; };
 		18922CC91EFA6F9B000FEC8E /* YUGetterGenerator.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18922CB91EFA6F9B000FEC8E /* YUGetterGenerator.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95FE56551F9D9EB50004CF5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FE56541F9D9EB50004CF5E /* AppDelegate.m */; };
+		95FE56581F9D9EB50004CF5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FE56571F9D9EB50004CF5E /* ViewController.m */; };
+		95FE565B1F9D9EB50004CF5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FE56591F9D9EB50004CF5E /* Main.storyboard */; };
+		95FE565D1F9D9EB50004CF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FE565C1F9D9EB50004CF5E /* Assets.xcassets */; };
+		95FE56601F9D9EB50004CF5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FE565E1F9D9EB50004CF5E /* LaunchScreen.storyboard */; };
+		95FE56631F9D9EB50004CF5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FE56621F9D9EB50004CF5E /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,16 @@
 		18922CC31EFA6F9B000FEC8E /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
 		18922CC41EFA6F9B000FEC8E /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
 		18922CC61EFA6F9B000FEC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FE56511F9D9EB40004CF5E /* GetterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FE56531F9D9EB50004CF5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95FE56541F9D9EB50004CF5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95FE56561F9D9EB50004CF5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95FE56571F9D9EB50004CF5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95FE565A1F9D9EB50004CF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95FE565C1F9D9EB50004CF5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95FE565F1F9D9EB50004CF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95FE56611F9D9EB50004CF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FE56621F9D9EB50004CF5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +94,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95FE564E1F9D9EB40004CF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +109,7 @@
 			children = (
 				18922CA01EFA6F8A000FEC8E /* GetterGenerator */,
 				18922CBD1EFA6F9B000FEC8E /* YUGetterGenerator */,
+				95FE56521F9D9EB50004CF5E /* GetterTest */,
 				18922CBA1EFA6F9B000FEC8E /* Frameworks */,
 				18922C9F1EFA6F8A000FEC8E /* Products */,
 			);
@@ -96,6 +120,7 @@
 			children = (
 				18922C9E1EFA6F8A000FEC8E /* GetterGenerator.app */,
 				18922CB91EFA6F9B000FEC8E /* YUGetterGenerator.appex */,
+				95FE56511F9D9EB40004CF5E /* GetterTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +177,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		95FE56521F9D9EB50004CF5E /* GetterTest */ = {
+			isa = PBXGroup;
+			children = (
+				95FE56531F9D9EB50004CF5E /* AppDelegate.h */,
+				95FE56541F9D9EB50004CF5E /* AppDelegate.m */,
+				95FE56561F9D9EB50004CF5E /* ViewController.h */,
+				95FE56571F9D9EB50004CF5E /* ViewController.m */,
+				95FE56591F9D9EB50004CF5E /* Main.storyboard */,
+				95FE565C1F9D9EB50004CF5E /* Assets.xcassets */,
+				95FE565E1F9D9EB50004CF5E /* LaunchScreen.storyboard */,
+				95FE56611F9D9EB50004CF5E /* Info.plist */,
+				95FE56621F9D9EB50004CF5E /* main.m */,
+			);
+			path = GetterTest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,6 +232,23 @@
 			productReference = 18922CB91EFA6F9B000FEC8E /* YUGetterGenerator.appex */;
 			productType = "com.apple.product-type.xcode-extension";
 		};
+		95FE56501F9D9EB40004CF5E /* GetterTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95FE56801F9D9EB50004CF5E /* Build configuration list for PBXNativeTarget "GetterTest" */;
+			buildPhases = (
+				95FE564D1F9D9EB40004CF5E /* Sources */,
+				95FE564E1F9D9EB40004CF5E /* Frameworks */,
+				95FE564F1F9D9EB40004CF5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetterTest;
+			productName = GetterTest;
+			productReference = 95FE56511F9D9EB40004CF5E /* GetterTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,12 +260,17 @@
 				TargetAttributes = {
 					18922C9D1EFA6F8A000FEC8E = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = JDX99F375A;
+						DevelopmentTeam = CHFFSY6JS6;
 						ProvisioningStyle = Automatic;
 					};
 					18922CB81EFA6F9B000FEC8E = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = JDX99F375A;
+						DevelopmentTeam = CHFFSY6JS6;
+						ProvisioningStyle = Automatic;
+					};
+					95FE56501F9D9EB40004CF5E = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = 7EK9JHQCS2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -227,6 +290,7 @@
 			targets = (
 				18922C9D1EFA6F8A000FEC8E /* GetterGenerator */,
 				18922CB81EFA6F9B000FEC8E /* YUGetterGenerator */,
+				95FE56501F9D9EB40004CF5E /* GetterTest */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +309,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FE564F1F9D9EB40004CF5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FE56601F9D9EB50004CF5E /* LaunchScreen.storyboard in Resources */,
+				95FE565D1F9D9EB50004CF5E /* Assets.xcassets in Resources */,
+				95FE565B1F9D9EB50004CF5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +344,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95FE564D1F9D9EB40004CF5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FE56581F9D9EB50004CF5E /* ViewController.m in Sources */,
+				95FE56631F9D9EB50004CF5E /* main.m in Sources */,
+				95FE56551F9D9EB50004CF5E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -287,6 +371,22 @@
 				18922CAD1EFA6F8A000FEC8E /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95FE56591F9D9EB50004CF5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95FE565A1F9D9EB50004CF5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95FE565E1F9D9EB50004CF5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95FE565F1F9D9EB50004CF5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -386,12 +486,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JDX99F375A;
+				DEVELOPMENT_TEAM = CHFFSY6JS6;
 				INFOPLIST_FILE = GetterGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hme.GetterGenerator;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqxq.GetterGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
@@ -401,12 +504,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JDX99F375A;
+				DEVELOPMENT_TEAM = CHFFSY6JS6;
 				INFOPLIST_FILE = GetterGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hme.GetterGenerator;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqxq.GetterGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
@@ -416,12 +522,13 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = YUGetterGenerator/YUGetterGenerator.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JDX99F375A;
+				DEVELOPMENT_TEAM = CHFFSY6JS6;
 				INFOPLIST_FILE = YUGetterGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hme.GetterGenerator.YUGetterGenerator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqxq.GetterGenerator.YUGetterGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -433,15 +540,69 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = YUGetterGenerator/YUGetterGenerator.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JDX99F375A;
+				DEVELOPMENT_TEAM = CHFFSY6JS6;
 				INFOPLIST_FILE = YUGetterGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hme.GetterGenerator.YUGetterGenerator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqxq.GetterGenerator.YUGetterGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		95FE567A1F9D9EB50004CF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EK9JHQCS2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GetterTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqxq.GetterTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95FE567B1F9D9EB50004CF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EK9JHQCS2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GetterTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqxq.GetterTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -464,6 +625,7 @@
 				18922CB41EFA6F8A000FEC8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18922CCA1EFA6F9B000FEC8E /* Build configuration list for PBXNativeTarget "YUGetterGenerator" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +634,16 @@
 				18922CCC1EFA6F9B000FEC8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95FE56801F9D9EB50004CF5E /* Build configuration list for PBXNativeTarget "GetterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FE567A1F9D9EB50004CF5E /* Debug */,
+				95FE567B1F9D9EB50004CF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,11 @@
 
 #import "ViewController.h"
 
+@interface ViewController()
+@property (nonatomic,strong)NSArray *array;
+@end
+
+
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -23,5 +28,12 @@
     // Update the view, if already loaded.
 }
 
+
+- (NSArray *)array {
+   if (!_array) {
+       _array = [NSArray new];
+   }
+   return _array;
+}
 
 @end
