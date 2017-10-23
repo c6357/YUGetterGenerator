@@ -15,6 +15,8 @@
 @end
 
 
+
+
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -36,17 +38,6 @@
    return _array;
 }
 
-- (UIButton *)button {
-   if (!_button) {
-       _button = [UIButton buttonWithType:UIButtonTypeCustom];
-       _button.titleLabel.font = [UIFont systemFontOfSize:<#(CGFloat)#>];
-       [_button setTitle:<#Title#> forState:UIControlStateNormal];
-       [_button setTitleColor:<#Color#> forState:UIControlStateNormal];
-       [_button setImage:[UIImage imageNamed:<#(nonnull NSString *)#>] forState:UIControlStateNormal];
-       [_button addTarget:self action:@selector(<#selector#>) forControlEvents:UIControlEventTouchUpInside];
-   }
-   return _button;
-}
 
 - (UILabel *)lable {
    if (!_lable) {
@@ -58,5 +49,18 @@
    }
    return _lable;
 }
+
+- (UIButton *)button {
+   if (!_button) {
+       _button = [UIButton buttonWithType:UIButtonTypeCustom];
+       _button.titleLabel.font = [UIFont systemFontOfSize:<#(CGFloat)#>];
+       [_button setTitle:<#Title#> forState:UIControlStateNormal];
+       [_button setTitleColor:[UIColor <#color#>] forState:UIControlStateNormal];
+       [_button setImage:[UIImage imageNamed:<#(nonnull NSString *)#>] forState:UIControlStateNormal];
+       [_button addTarget:self action:@selector(<#selector#>)  forControlEvents:UIControlEventTouchUpInside];
+   }
+   return _button;
+}
+
 
 @end

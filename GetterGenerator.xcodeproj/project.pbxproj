@@ -16,6 +16,7 @@
 		18922CC21EFA6F9B000FEC8E /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18922CC11EFA6F9B000FEC8E /* SourceEditorExtension.m */; };
 		18922CC51EFA6F9B000FEC8E /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 18922CC41EFA6F9B000FEC8E /* SourceEditorCommand.m */; };
 		18922CC91EFA6F9B000FEC8E /* YUGetterGenerator.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18922CB91EFA6F9B000FEC8E /* YUGetterGenerator.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95F8C5491F9DD0B4003996E6 /* JsonToObjectCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F8C5481F9DD0B4003996E6 /* JsonToObjectCommand.m */; };
 		95FE56551F9D9EB50004CF5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FE56541F9D9EB50004CF5E /* AppDelegate.m */; };
 		95FE56581F9D9EB50004CF5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FE56571F9D9EB50004CF5E /* ViewController.m */; };
 		95FE565B1F9D9EB50004CF5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FE56591F9D9EB50004CF5E /* Main.storyboard */; };
@@ -66,6 +67,8 @@
 		18922CC31EFA6F9B000FEC8E /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
 		18922CC41EFA6F9B000FEC8E /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
 		18922CC61EFA6F9B000FEC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F8C5471F9DD0B4003996E6 /* JsonToObjectCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonToObjectCommand.h; sourceTree = "<group>"; };
+		95F8C5481F9DD0B4003996E6 /* JsonToObjectCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonToObjectCommand.m; sourceTree = "<group>"; };
 		95FE56511F9D9EB40004CF5E /* GetterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FE56531F9D9EB50004CF5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		95FE56541F9D9EB50004CF5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 				18922CC11EFA6F9B000FEC8E /* SourceEditorExtension.m */,
 				18922CC31EFA6F9B000FEC8E /* SourceEditorCommand.h */,
 				18922CC41EFA6F9B000FEC8E /* SourceEditorCommand.m */,
+				95F8C5471F9DD0B4003996E6 /* JsonToObjectCommand.h */,
+				95F8C5481F9DD0B4003996E6 /* JsonToObjectCommand.m */,
 				18922CC61EFA6F9B000FEC8E /* Info.plist */,
 				18922CBE1EFA6F9B000FEC8E /* Supporting Files */,
 			);
@@ -341,6 +346,7 @@
 			files = (
 				18922CC21EFA6F9B000FEC8E /* SourceEditorExtension.m in Sources */,
 				18922CC51EFA6F9B000FEC8E /* SourceEditorCommand.m in Sources */,
+				95F8C5491F9DD0B4003996E6 /* JsonToObjectCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

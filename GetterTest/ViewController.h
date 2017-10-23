@@ -9,7 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
 @end
+
+//{
+//    "name":"BruceYu",
+//    "id":"0001",
+//    "countF":88,
+//}
+
+
 
